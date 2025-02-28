@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Anita busia\\KPZ\\Lab_1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{30BDADF7-0021-4A39-BABE-79ADCE48E3AB}|Lab_1\\Lab_1.csproj|c:\\anita busia\\kpz\\lab_1\\lab_1\\reporting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30BDADF7-0021-4A39-BABE-79ADCE48E3AB}|Lab_1\\Lab_1.csproj|solutionrelative:lab_1\\reporting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30BDADF7-0021-4A39-BABE-79ADCE48E3AB}|Lab_1\\Lab_1.csproj|c:\\anita busia\\kpz\\lab_1\\lab_1\\warehouse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30BDADF7-0021-4A39-BABE-79ADCE48E3AB}|Lab_1\\Lab_1.csproj|solutionrelative:lab_1\\warehouse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30BDADF7-0021-4A39-BABE-79ADCE48E3AB}|Lab_1\\Lab_1.csproj|c:\\anita busia\\kpz\\lab_1\\lab_1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30BDADF7-0021-4A39-BABE-79ADCE48E3AB}|Lab_1\\Lab_1.csproj|solutionrelative:lab_1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Reporting.cs",
+              "DocumentMoniker": "C:\\Anita busia\\KPZ\\Lab_1\\Lab_1\\Reporting.cs",
+              "RelativeDocumentMoniker": "Lab_1\\Reporting.cs",
+              "ToolTip": "C:\\Anita busia\\KPZ\\Lab_1\\Lab_1\\Reporting.cs",
+              "RelativeToolTip": "Lab_1\\Reporting.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAADAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T10:14:40.036Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Warehouse.cs",
+              "DocumentMoniker": "C:\\Anita busia\\KPZ\\Lab_1\\Lab_1\\Warehouse.cs",
+              "RelativeDocumentMoniker": "Lab_1\\Warehouse.cs",
+              "ToolTip": "C:\\Anita busia\\KPZ\\Lab_1\\Lab_1\\Warehouse.cs",
+              "RelativeToolTip": "Lab_1\\Warehouse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T10:13:38.719Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Anita busia\\KPZ\\Lab_1\\Lab_1\\Program.cs",
+              "RelativeDocumentMoniker": "Lab_1\\Program.cs",
+              "ToolTip": "C:\\Anita busia\\KPZ\\Lab_1\\Lab_1\\Program.cs",
+              "RelativeToolTip": "Lab_1\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T10:06:50.571Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

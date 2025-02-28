@@ -1,0 +1,7 @@
+C:\Anita busia\KPZ\Lab_1\Lab_1\bin\Debug\Lab_1.exe.config
+C:\Anita busia\KPZ\Lab_1\Lab_1\bin\Debug\Lab_1.exe
+C:\Anita busia\KPZ\Lab_1\Lab_1\bin\Debug\Lab_1.pdb
+C:\Anita busia\KPZ\Lab_1\Lab_1\obj\Debug\Lab_1.csproj.AssemblyReference.cache
+C:\Anita busia\KPZ\Lab_1\Lab_1\obj\Debug\Lab_1.csproj.CoreCompileInputs.cache
+C:\Anita busia\KPZ\Lab_1\Lab_1\obj\Debug\Lab_1.exe
+C:\Anita busia\KPZ\Lab_1\Lab_1\obj\Debug\Lab_1.pdb
