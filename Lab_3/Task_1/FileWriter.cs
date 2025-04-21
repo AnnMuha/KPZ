@@ -5,7 +5,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.IO;
 
-namespace Task1
+
+namespace Task_1
 {
     public class FileWriter
     {
