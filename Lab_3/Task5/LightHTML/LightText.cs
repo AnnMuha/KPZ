@@ -16,7 +16,6 @@ namespace Task5.LightHTML
         }
 
         public override string RenderOuterHTML() => Content;
-
         public override string RenderInnerHTML() => Content;
     }
 }
