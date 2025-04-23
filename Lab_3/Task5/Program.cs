@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Task5.LightHTML;
+using Task5.LightHTML.Events;
 
 namespace Task5
 {
@@ -12,25 +13,23 @@ namespace Task5
         static void Main()
         {
             Console.OutputEncoding = Encoding.UTF8;
-            Console.WriteLine("=== LightHTML Renderer ===\n");
+            Console.WriteLine("=== LightHTML Renderer з підтримкою подій ===\n");
 
             var section = new LightElement("section", "block", false);
             section.AddClass("main-section");
 
-            var title = new LightElement("h2", "block", false);
-            title.AddChild(new LightText("Топ новини"));
+            var button = new LightElement("button", "inline", false);
+            button.AddChild(new LightText("Натисни мене"));
 
-            var image = new LightElement("img", "inline", true);
-            image.AddClass("news-img");
+            var logger = new ClickLogger();
+            button.AddEventListener("click", logger);
 
-            var paragraph = new LightElement("p", "block", false);
-            paragraph.AddChild(new LightText("Сьогодні відбулись важливі події у світі технологій..."));
-
-            section.AddChild(title);
-            section.AddChild(image);
-            section.AddChild(paragraph);
+            section.AddChild(button);
 
             Console.WriteLine(section.RenderOuterHTML());
+
+            Console.WriteLine("\n-- Емітація кліку по кнопці --");
+            button.DispatchEvent("click");
         }
     }
 }

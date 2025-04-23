@@ -43,6 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="LightHTML\Events\ClickLogger.cs" />
+    <Compile Include="LightHTML\Events\IEventListener.cs" />
     <Compile Include="LightHTML\LightElement.cs" />
     <Compile Include="LightHTML\LightNode.cs" />
     <Compile Include="LightHTML\LightText.cs" />
