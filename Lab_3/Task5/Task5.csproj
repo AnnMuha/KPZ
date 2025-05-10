@@ -49,13 +49,11 @@
     <Compile Include="LightHTML\LightElement.cs" />
     <Compile Include="LightHTML\LightNode.cs" />
     <Compile Include="LightHTML\LightText.cs" />
-    <Compile Include="LightHTML\State\HiddenState.cs" />
-    <Compile Include="LightHTML\State\IVisibilityState.cs" />
-    <Compile Include="LightHTML\State\VisibilityContext.cs" />
-    <Compile Include="LightHTML\State\VisibleState.cs" />
     <Compile Include="LightHTML\Strategy\FileImageLoadingStrategy.cs" />
     <Compile Include="LightHTML\Strategy\IImageLoadingStrategy.cs" />
     <Compile Include="LightHTML\Strategy\NetworkImageLoadingStrategy.cs" />
+    <Compile Include="LightHTML\Visitor\IVisitor.cs" />
+    <Compile Include="LightHTML\Visitor\TagPrinterVisitor.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

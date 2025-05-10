@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Task5.LightHTML.Visitor;
 
 namespace Task5.LightHTML
 {
@@ -17,5 +18,11 @@ namespace Task5.LightHTML
 
         public override string RenderOuterHTML() => Content;
         public override string RenderInnerHTML() => Content;
+
+        public override void Accept(IVisitor visitor)
+        {
+            visitor.Visit(this);
+        }
     }
 }
+
