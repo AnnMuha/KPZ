@@ -3,7 +3,7 @@ using System.Text;
 using Task5.LightHTML;
 using Task5.LightHTML.Events;
 using Task5.LightHTML.Strategy;
-using Task5.LightHTML.Command;
+using Task5.LightHTML.State;
 
 namespace Task5
 {
@@ -12,9 +12,9 @@ namespace Task5
         static void Main()
         {
             Console.OutputEncoding = Encoding.UTF8;
-            Console.WriteLine("=== LightHTML Renderer з підтримкою подій, стратегій і команди ===\n");
+            Console.WriteLine("=== LightHTML Renderer з підтримкою подій, шаблонів і стратегій ===\n");
 
-            // Секція
+            // Створення секції
             var section = new LightElement("section", "block", false);
             section.AddClass("main-section");
 
@@ -24,37 +24,37 @@ namespace Task5
             button.AddClass("btn-primary");
             button.AddChild(new LightText("Натисни мене"));
 
-            // Подія
+            // Додаємо обробник події кліку
             button.AddEventListener("click", new ClickLogger());
 
-            // Додавання класу через команду
-            var addCommand = new AddClassCommand(button, "active");
-            addCommand.Execute();
+            // Прихований елемент (буде не виводитися)
+            var hiddenDiv = new LightElement("div", "block", false);
+            hiddenDiv.AddClass("secret");
+            hiddenDiv.AddChild(new LightText("Це приховано"));
+            hiddenDiv.Visibility.SetState(new HiddenState()); // зміна стану на прихований
 
-            Console.WriteLine("\n-- Після виконання команди (додано клас 'active') --");
-            Console.WriteLine(button.RenderOuterHTML());
-
-            addCommand.Undo();
-
-            Console.WriteLine("\n-- Після скасування команди (видалено клас 'active') --");
-            Console.WriteLine(button.RenderOuterHTML());
-
-            // Додаємо кнопку до секції
+            // Додаємо все в секцію
             section.AddChild(button);
+            section.AddChild(hiddenDiv);
 
-            // Зображення (стратегія завантаження)
+            // Зображення з різними стратегіями
             var image1 = new ImageElement("images/cat.jpg", new FileImageLoadingStrategy());
             var image2 = new ImageElement("https://example.com/dog.jpg", new NetworkImageLoadingStrategy());
             section.AddChild(image1);
             section.AddChild(image2);
 
-            // Вивід HTML
-            Console.WriteLine("\n--- HTML ---");
+            // Виведення HTML
+            Console.WriteLine("\n--- Згенерований HTML ---");
             Console.WriteLine(section.RenderOuterHTML());
 
             // Емітація події
-            Console.WriteLine("\n-- Емітація кліку по кнопці --");
+            Console.WriteLine("\n-- Емітація події 'click' для кнопки --");
             button.DispatchEvent("click");
+
+            // Тест: показати прихований елемент
+            Console.WriteLine("\n-- Робимо прихований div видимим --");
+            hiddenDiv.Visibility.SetState(new VisibleState());
+            Console.WriteLine(section.RenderOuterHTML());
         }
     }
 }

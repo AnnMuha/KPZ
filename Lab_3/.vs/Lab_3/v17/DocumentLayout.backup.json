@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Anita busia\\KPZ\\Lab_3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C7F0F665-32B2-4CCF-9E1B-2CC3E9E7AB13}|Task5\\Task5.csproj|c:\\anita busia\\kpz\\lab_3\\task5\\lighthtml\\lightelement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C7F0F665-32B2-4CCF-9E1B-2CC3E9E7AB13}|Task5\\Task5.csproj|solutionrelative:task5\\lighthtml\\lightelement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C7F0F665-32B2-4CCF-9E1B-2CC3E9E7AB13}|Task5\\Task5.csproj|c:\\anita busia\\kpz\\lab_3\\task5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C7F0F665-32B2-4CCF-9E1B-2CC3E9E7AB13}|Task5\\Task5.csproj|solutionrelative:task5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7F0F665-32B2-4CCF-9E1B-2CC3E9E7AB13}|Task5\\Task5.csproj|c:\\anita busia\\kpz\\lab_3\\task5\\lighthtml\\command\\addclasscommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7F0F665-32B2-4CCF-9E1B-2CC3E9E7AB13}|Task5\\Task5.csproj|solutionrelative:task5\\lighthtml\\command\\addclasscommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7F0F665-32B2-4CCF-9E1B-2CC3E9E7AB13}|Task5\\Task5.csproj|c:\\anita busia\\kpz\\lab_3\\task5\\lighthtml\\command\\icommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7F0F665-32B2-4CCF-9E1B-2CC3E9E7AB13}|Task5\\Task5.csproj|solutionrelative:task5\\lighthtml\\command\\icommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7F0F665-32B2-4CCF-9E1B-2CC3E9E7AB13}|Task5\\Task5.csproj|c:\\anita busia\\kpz\\lab_3\\task5\\lighthtml\\lightelement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7F0F665-32B2-4CCF-9E1B-2CC3E9E7AB13}|Task5\\Task5.csproj|solutionrelative:task5\\lighthtml\\lightelement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,11 +26,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "AddClassCommand.cs",
+              "DocumentMoniker": "C:\\Anita busia\\KPZ\\Lab_3\\Task5\\LightHTML\\Command\\AddClassCommand.cs",
+              "RelativeDocumentMoniker": "Task5\\LightHTML\\Command\\AddClassCommand.cs",
+              "ToolTip": "C:\\Anita busia\\KPZ\\Lab_3\\Task5\\LightHTML\\Command\\AddClassCommand.cs",
+              "RelativeToolTip": "Task5\\LightHTML\\Command\\AddClassCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T09:13:06.379Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ICommand.cs",
+              "DocumentMoniker": "C:\\Anita busia\\KPZ\\Lab_3\\Task5\\LightHTML\\Command\\ICommand.cs",
+              "RelativeDocumentMoniker": "Task5\\LightHTML\\Command\\ICommand.cs",
+              "ToolTip": "C:\\Anita busia\\KPZ\\Lab_3\\Task5\\LightHTML\\Command\\ICommand.cs",
+              "RelativeToolTip": "Task5\\LightHTML\\Command\\ICommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T09:12:29.535Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "LightElement.cs",
               "DocumentMoniker": "C:\\Anita busia\\KPZ\\Lab_3\\Task5\\LightHTML\\LightElement.cs",
               "RelativeDocumentMoniker": "Task5\\LightHTML\\LightElement.cs",
@@ -35,13 +69,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Anita busia\\KPZ\\Lab_3\\Task5\\Program.cs",
               "RelativeDocumentMoniker": "Task5\\Program.cs",
-              "ToolTip": "C:\\Anita busia\\KPZ\\Lab_3\\Task5\\Program.cs*",
-              "RelativeToolTip": "Task5\\Program.cs*",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB0AAABAAAAAAAAAAA==",
+              "ToolTip": "C:\\Anita busia\\KPZ\\Lab_3\\Task5\\Program.cs",
+              "RelativeToolTip": "Task5\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAADwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-10T08:20:33.38Z",
               "EditorCaption": ""

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 using Task5.LightHTML.Events;
+using Task5.LightHTML.State;
 
 namespace Task5.LightHTML
 {
@@ -10,10 +11,14 @@ namespace Task5.LightHTML
         public string Tag { get; }
         public bool SelfClosing { get; }
         public string Display { get; }
+
         public List<string> CssClasses { get; } = new List<string>();
         public List<LightNode> Children { get; } = new List<LightNode>();
 
         private readonly Dictionary<string, List<IEventListener>> _listeners = new Dictionary<string, List<IEventListener>>();
+
+        // Додано для патерна Стан (State)
+        public VisibilityContext Visibility { get; } = new VisibilityContext();
 
         public LightElement(string tag, string display, bool selfClosing)
         {
@@ -24,7 +29,8 @@ namespace Task5.LightHTML
 
         public void AddClass(string className)
         {
-            CssClasses.Add(className);
+            if (!CssClasses.Contains(className))
+                CssClasses.Add(className);
         }
 
         public void AddChild(LightNode node)
@@ -54,6 +60,10 @@ namespace Task5.LightHTML
 
         public override string RenderOuterHTML()
         {
+            // Перевірка видимості через State Pattern
+            if (!Visibility.IsVisible())
+                return string.Empty;
+
             var sb = new StringBuilder();
             sb.Append($"<{Tag}");
 
@@ -81,7 +91,5 @@ namespace Task5.LightHTML
 
             return inner.ToString();
         }
-
     }
 }
-
