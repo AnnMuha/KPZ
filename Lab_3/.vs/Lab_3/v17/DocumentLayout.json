@@ -5,10 +5,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{C7F0F665-32B2-4CCF-9E1B-2CC3E9E7AB13}|Task5\\Task5.csproj|c:\\anita busia\\kpz\\lab_3\\task5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C7F0F665-32B2-4CCF-9E1B-2CC3E9E7AB13}|Task5\\Task5.csproj|solutionrelative:task5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C7F0F665-32B2-4CCF-9E1B-2CC3E9E7AB13}|Task5\\Task5.csproj|c:\\anita busia\\kpz\\lab_3\\task5\\lighthtml\\lightelement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C7F0F665-32B2-4CCF-9E1B-2CC3E9E7AB13}|Task5\\Task5.csproj|solutionrelative:task5\\lighthtml\\lightelement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -28,22 +24,9 @@
               "RelativeDocumentMoniker": "Task5\\Program.cs",
               "ToolTip": "C:\\Anita busia\\KPZ\\Lab_3\\Task5\\Program.cs",
               "RelativeToolTip": "Task5\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAgAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T07:28:19.487Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "LightElement.cs",
-              "DocumentMoniker": "C:\\Anita busia\\KPZ\\Lab_3\\Task5\\LightHTML\\LightElement.cs",
-              "RelativeDocumentMoniker": "Task5\\LightHTML\\LightElement.cs",
-              "ToolTip": "C:\\Anita busia\\KPZ\\Lab_3\\Task5\\LightHTML\\LightElement.cs",
-              "RelativeToolTip": "Task5\\LightHTML\\LightElement.cs",
-              "ViewState": "AgIAAGMAAAAAAAAAAAAAAHgAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T07:26:22.971Z",
+              "WhenOpened": "2025-05-10T08:20:33.38Z",
               "EditorCaption": ""
             }
           ]
