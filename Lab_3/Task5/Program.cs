@@ -1,45 +1,60 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using Task5.LightHTML;
 using Task5.LightHTML.Events;
 using Task5.LightHTML.Strategy;
-using Task5.LightHTML.Iterator;
+using Task5.LightHTML.Command;
 
 namespace Task5
 {
-    internal class Program
+    class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
-            // Створюємо дерево
-            var root = new LightElement("div", "block", false);
-            var header = new LightElement("header", "block", false);
-            var nav = new LightElement("nav", "block", false);
-            var main = new LightElement("main", "block", false);
-            var paragraph = new LightText("Вітаємо у нашому HTML!");
-            var footer = new LightElement("footer", "block", false);
+            Console.OutputEncoding = Encoding.UTF8;
+            Console.WriteLine("=== LightHTML Renderer з підтримкою подій, стратегій і команди ===\n");
 
-            // Формуємо дерево
-            header.AddChild(new LightText("Це заголовок"));
-            nav.AddChild(new LightText("Головна | Про нас | Контакти"));
-            main.AddChild(paragraph);
-            footer.AddChild(new LightText("© 2025"));
+            // Секція
+            var section = new LightElement("section", "block", false);
+            section.AddClass("main-section");
 
-            root.AddChild(header);
-            root.AddChild(nav);
-            root.AddChild(main);
-            root.AddChild(footer);
+            // Кнопка
+            var button = new LightElement("button", "inline", false);
+            button.AddClass("btn");
+            button.AddClass("btn-primary");
+            button.AddChild(new LightText("Натисни мене"));
 
-            // Отримуємо ітератор та обходимо дерево
-            var iterator = root.GetDepthFirstIterator();
-            while (iterator.HasNext())
-            {
-                var node = iterator.Next();
-                Console.WriteLine(node.RenderOuterHTML());
-            }
+            // Подія
+            button.AddEventListener("click", new ClickLogger());
+
+            // Додавання класу через команду
+            var addCommand = new AddClassCommand(button, "active");
+            addCommand.Execute();
+
+            Console.WriteLine("\n-- Після виконання команди (додано клас 'active') --");
+            Console.WriteLine(button.RenderOuterHTML());
+
+            addCommand.Undo();
+
+            Console.WriteLine("\n-- Після скасування команди (видалено клас 'active') --");
+            Console.WriteLine(button.RenderOuterHTML());
+
+            // Додаємо кнопку до секції
+            section.AddChild(button);
+
+            // Зображення (стратегія завантаження)
+            var image1 = new ImageElement("images/cat.jpg", new FileImageLoadingStrategy());
+            var image2 = new ImageElement("https://example.com/dog.jpg", new NetworkImageLoadingStrategy());
+            section.AddChild(image1);
+            section.AddChild(image2);
+
+            // Вивід HTML
+            Console.WriteLine("\n--- HTML ---");
+            Console.WriteLine(section.RenderOuterHTML());
+
+            // Емітація події
+            Console.WriteLine("\n-- Емітація кліку по кнопці --");
+            button.DispatchEvent("click");
         }
     }
 }

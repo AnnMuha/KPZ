@@ -4,12 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Task5.LightHTML.Iterator
+namespace Task5.LightHTML.Command
 {
-    public interface ILightNodeIterator
+    public interface ICommand
     {
-        bool HasNext();
-        LightNode Next();
+        void Execute();
+        void Undo();
     }
 }
-

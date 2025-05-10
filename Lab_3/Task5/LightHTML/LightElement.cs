@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Text;
 using Task5.LightHTML.Events;
-using Task5.LightHTML.Iterator;
 
 namespace Task5.LightHTML
 {
@@ -83,11 +82,6 @@ namespace Task5.LightHTML
             return inner.ToString();
         }
 
-        // ⬇️ Метод для отримання ітератора обходу в глибину
-        public ILightNodeIterator GetDepthFirstIterator()
-        {
-            return new DepthFirstIterator(this);
-        }
     }
 }
 
