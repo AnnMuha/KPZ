@@ -1,9 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using Task5.LightHTML.Events;
+using Task5.LightHTML.Iterator;
 
 namespace Task5.LightHTML
 {
@@ -54,40 +53,6 @@ namespace Task5.LightHTML
             }
         }
 
-        public virtual void Render()
-        {
-            OnCreated();
-            OnInserted();
-            OnStylesApplied();
-            OnClassListApplied();
-            OnTextRendered();
-        }
-
-        protected virtual void OnCreated()
-        {
-            Console.WriteLine($"[{Tag}] Створено");
-        }
-
-        protected virtual void OnInserted()
-        {
-            Console.WriteLine($"[{Tag}] Вставлено в DOM");
-        }
-
-        protected virtual void OnStylesApplied()
-        {
-            Console.WriteLine($"[{Tag}] Стилі застосовано");
-        }
-
-        protected virtual void OnClassListApplied()
-        {
-            Console.WriteLine($"[{Tag}] Класи застосовано: {string.Join(", ", CssClasses)}");
-        }
-
-        protected virtual void OnTextRendered()
-        {
-            Console.WriteLine($"[{Tag}] Текст відрендерено: {RenderInnerHTML()}");
-        }
-
         public override string RenderOuterHTML()
         {
             var sb = new StringBuilder();
@@ -117,5 +82,12 @@ namespace Task5.LightHTML
 
             return inner.ToString();
         }
+
+        // ⬇️ Метод для отримання ітератора обходу в глибину
+        public ILightNodeIterator GetDepthFirstIterator()
+        {
+            return new DepthFirstIterator(this);
+        }
     }
 }
+
