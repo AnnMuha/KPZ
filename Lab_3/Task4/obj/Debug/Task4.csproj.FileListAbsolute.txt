@@ -1,0 +1,8 @@
+C:\Anita busia\KPZ\Lab_3\Task4\bin\Debug\Task4.exe.config
+C:\Anita busia\KPZ\Lab_3\Task4\bin\Debug\Task4.exe
+C:\Anita busia\KPZ\Lab_3\Task4\bin\Debug\Task4.pdb
+C:\Anita busia\KPZ\Lab_3\Task4\obj\Debug\Task4.csproj.AssemblyReference.cache
+C:\Anita busia\KPZ\Lab_3\Task4\obj\Debug\Task4.csproj.CoreCompileInputs.cache
+C:\Anita busia\KPZ\Lab_3\Task4\obj\Debug\Task4.exe
+C:\Anita busia\KPZ\Lab_3\Task4\obj\Debug\Task4.pdb
+C:\Anita busia\KPZ\Lab_3\Task4\bin\Debug\test.txt
