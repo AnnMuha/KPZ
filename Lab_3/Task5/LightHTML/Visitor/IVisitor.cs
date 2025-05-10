@@ -1,0 +1,15 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Task5.LightHTML.Visitor
+{
+    public interface IVisitor
+    {
+        void Visit(LightElement element);
+        void Visit(LightText text);
+    }
+}
+

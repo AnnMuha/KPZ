@@ -5,6 +5,22 @@
     {
       "AbsoluteMoniker": "D:0:0:{C7F0F665-32B2-4CCF-9E1B-2CC3E9E7AB13}|Task5\\Task5.csproj|c:\\anita busia\\kpz\\lab_3\\task5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C7F0F665-32B2-4CCF-9E1B-2CC3E9E7AB13}|Task5\\Task5.csproj|solutionrelative:task5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7F0F665-32B2-4CCF-9E1B-2CC3E9E7AB13}|Task5\\Task5.csproj|c:\\anita busia\\kpz\\lab_3\\task5\\lighthtml\\lighttext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7F0F665-32B2-4CCF-9E1B-2CC3E9E7AB13}|Task5\\Task5.csproj|solutionrelative:task5\\lighthtml\\lighttext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7F0F665-32B2-4CCF-9E1B-2CC3E9E7AB13}|Task5\\Task5.csproj|c:\\anita busia\\kpz\\lab_3\\task5\\lighthtml\\lightnode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7F0F665-32B2-4CCF-9E1B-2CC3E9E7AB13}|Task5\\Task5.csproj|solutionrelative:task5\\lighthtml\\lightnode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7F0F665-32B2-4CCF-9E1B-2CC3E9E7AB13}|Task5\\Task5.csproj|c:\\anita busia\\kpz\\lab_3\\task5\\lighthtml\\visitor\\tagprintervisitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7F0F665-32B2-4CCF-9E1B-2CC3E9E7AB13}|Task5\\Task5.csproj|solutionrelative:task5\\lighthtml\\visitor\\tagprintervisitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7F0F665-32B2-4CCF-9E1B-2CC3E9E7AB13}|Task5\\Task5.csproj|c:\\anita busia\\kpz\\lab_3\\task5\\lighthtml\\lightelement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7F0F665-32B2-4CCF-9E1B-2CC3E9E7AB13}|Task5\\Task5.csproj|solutionrelative:task5\\lighthtml\\lightelement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +30,60 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LightText.cs",
+              "DocumentMoniker": "C:\\Anita busia\\KPZ\\Lab_3\\Task5\\LightHTML\\LightText.cs",
+              "RelativeDocumentMoniker": "Task5\\LightHTML\\LightText.cs",
+              "ToolTip": "C:\\Anita busia\\KPZ\\Lab_3\\Task5\\LightHTML\\LightText.cs",
+              "RelativeToolTip": "Task5\\LightHTML\\LightText.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T12:59:04.782Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LightNode.cs",
+              "DocumentMoniker": "C:\\Anita busia\\KPZ\\Lab_3\\Task5\\LightHTML\\LightNode.cs",
+              "RelativeDocumentMoniker": "Task5\\LightHTML\\LightNode.cs",
+              "ToolTip": "C:\\Anita busia\\KPZ\\Lab_3\\Task5\\LightHTML\\LightNode.cs",
+              "RelativeToolTip": "Task5\\LightHTML\\LightNode.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T12:57:00.79Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TagPrinterVisitor.cs",
+              "DocumentMoniker": "C:\\Anita busia\\KPZ\\Lab_3\\Task5\\LightHTML\\Visitor\\TagPrinterVisitor.cs",
+              "RelativeDocumentMoniker": "Task5\\LightHTML\\Visitor\\TagPrinterVisitor.cs",
+              "ToolTip": "C:\\Anita busia\\KPZ\\Lab_3\\Task5\\LightHTML\\Visitor\\TagPrinterVisitor.cs",
+              "RelativeToolTip": "Task5\\LightHTML\\Visitor\\TagPrinterVisitor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T12:56:30.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LightElement.cs",
+              "DocumentMoniker": "C:\\Anita busia\\KPZ\\Lab_3\\Task5\\LightHTML\\LightElement.cs",
+              "RelativeDocumentMoniker": "Task5\\LightHTML\\LightElement.cs",
+              "ToolTip": "C:\\Anita busia\\KPZ\\Lab_3\\Task5\\LightHTML\\LightElement.cs",
+              "RelativeToolTip": "Task5\\LightHTML\\LightElement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T12:52:58.06Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,7 +92,7 @@
               "RelativeDocumentMoniker": "Task5\\Program.cs",
               "ToolTip": "C:\\Anita busia\\KPZ\\Lab_3\\Task5\\Program.cs",
               "RelativeToolTip": "Task5\\Program.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAADwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-10T08:20:33.38Z",
               "EditorCaption": ""
